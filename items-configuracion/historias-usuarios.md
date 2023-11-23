@@ -1,12 +1,12 @@
 ## Thema: [Nombre del Thema]
 Descripción breve del tema.
 
----
+
 
 ## Epic: [Nombre de la epica]
 Descripción breve del épico.
 
----
+
 
 ### Historia de Usuario: [ID de la Historia]
 **Como** [rol]
