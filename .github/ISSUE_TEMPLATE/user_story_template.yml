@@ -3,7 +3,8 @@ name: ✨ Historia de Usuario
 about: Plantilla para crear una historia de usuario con criterios de aceptación y tareas
 title: "Historia de Usuario: [Título]"
 labels: historia-de-usuario
-assignees: ''
+assignees:
+  - 
 
 # Descripción detallada de la historia de usuario.
 description: |
