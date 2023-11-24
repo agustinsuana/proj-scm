@@ -58,14 +58,14 @@ body:
     required: true 
 
 - type: dropdown
-    attributes:
-      label: Impacto del cambio
-      multiple: true
-      options:
-        - Tiempo
-        - Alcance
-        - Presupuesto
-        - Arquitectura
+  attributes:
+    label: Impacto del cambio
+    multiple: true
+    options:
+      - Tiempo
+      - Alcance
+      - Presupuesto
+      - Arquitectura
 
 - type: textarea
   attributes:
