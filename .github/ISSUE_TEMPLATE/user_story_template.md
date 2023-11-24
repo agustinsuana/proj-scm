@@ -1,3 +1,11 @@
+---
+name: 🐞 Historia de Usuario
+about: Plantilla para redactar historias de usuarios
+title: '[Historia de usuario] <title>'
+labels: user-history
+assignees: ''
+
+---
 # Historia de Usuario
 
 ## Título de la Historia de Usuario
