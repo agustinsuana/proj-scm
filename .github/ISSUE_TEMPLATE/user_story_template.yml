@@ -43,7 +43,6 @@ body:
 - type: dropdown
   attributes:
     label: Prioridad
-    description: Prioridad de la tarea
     options: 
       - Alto
       - Medio
