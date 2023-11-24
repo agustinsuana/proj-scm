@@ -3,7 +3,7 @@
 
 Historia de revisiones
 | Fecha      | Version | Descripcion                          | Autor           |
-|------------|---------|--------------------------------------|------------------
+|------------|---------|--------------------------------------|-----------------|
 | 23/09/2023 | 0.1     | Elaboración de plan de configuracion | Fabiola Carrasco|
 | 23/09/2023 | 0.1     | Elaboración de plan de configuracion | Eduardo Medina  |
 | 23/09/2023 | 0.1     | Elaboración de plan de configuracion | Agustin Suaña   |
@@ -45,7 +45,7 @@ Definimos como un elemento de configuración a una unidad física y/o lógica pa
 
 1. El plan de proyecto. 
 2. El plan de Gestión de Configuración. 
-3. El documento de definición de requerimientos. 
+3. El documento de definición de Requisitos. 
 4. Estándares de análisis, diseño, codificación, pruebas y auditoría.
 5. Documentos de análisis del sistema. 
 6. Documentos de diseño del sistema. 
@@ -83,7 +83,7 @@ Según el tamaño del proyecto se empiezan a establecer los grupos de trabajo. E
 El plan de gestión de la configuración está presente en las siguientes tareas:
 - Gestión del Proyecto.
 - Comunicación Gestión de Calidad.
-- Análisis de Requerimientos.
+- Análisis de Requisitos.
 - Diseño.
 - Implementación.
 - Verificación.
@@ -92,16 +92,16 @@ El plan de gestión de la configuración está presente en las siguientes tareas
 - Control de cambios (SCM).
 
 La siguiente tabla busca representar cómo se vinculan las actividades de SCM con los distintos roles en el proyecto.
-|Actividad                                       |Rol Responsable                |Otros roles involucrados          |
-|------------------------------------------------|-------------------------------|----------------------------------|
-|Planificar la configuración de SCM              |SCMR                           |                                  |
-|Definición de la línea base del proyecto        |SCMR                           |SQAR, Especialista técnico.       |
-|Seguimiento de la línea base del proyecto       |SCMR                           |Todos los integrantes.            |
-|Definición del ambiente controlado              |SCMR*1                         |Especialista técnico.             |
-|Control de cambios                              |CCB*2, SCMR                    |                                  |
+|Actividad                                       |Rol Responsable                |Otros roles involucrados                        |
+|------------------------------------------------|-------------------------------|------------------------------------------------|
+|Planificar la configuración de SCM              |SCMR                           |                                                |
+|Definición de la línea base del proyecto        |SCMR                           |SQAR, Especialista técnico.                     |
+|Seguimiento de la línea base del proyecto       |SCMR                           |Todos los integrantes.                          |
+|Definición del ambiente controlado              |SCMR*1                         |Especialista técnico.                           |
+|Control de cambios                              |CCB*2, SCMR                    |                                                |
 |Descripción de la versión                       |SCMR                           |Administrador, SQAR, Documentador de usuario, VR|
-|Notas de la versión                             |SCMR                           |SQAR, VR                          |
-|Realizar informe final de SCM                   |SCMR                           |                                  |
+|Notas de la versión                             |SCMR                           |SQAR, VR                                        |
+|Realizar informe final de SCM                   |SCMR                           |                                                |
 
 #### 2.2 Responsabilidades
 El SCMR debe proveer la infraestructura y el entorno de configuración para el proyecto. Debe preocuparse porque todos los integrantes del grupo entiendan y puedan ejecutar las actividades de SCM que el Plan les asigna, así como asegurar que éstas sean llevadas a cabo. Seguir la línea base, controlando las versiones y cambios de ella, son tareas correspondientes a él. Debe definir y construir el Ambiente Controlado e informar al resto del equipo sobre la manera de usarlo.
@@ -146,20 +146,20 @@ Para todos los elementos de configuración se les deberá agregar, después del 
 Para los entregables, se deberá identificar a qué fase e iteración corresponden en forma manual. Esto es: para los elementos bajo control de configuración se los almacenará de forma que se puedan recuperar dada la Fase e iteración a la que corresponden, y para los elementos que no se encuentran bajo control de configuración podrán ser almacenados por ejemplo en carpetas que identifiquen la Fase e iteración a la que pertenecen.
 Se indica la siguiente nomenclatura para cada entregable en el modelo de proceso, según la disciplina (en caso que exista algún elemento de configuración que se agregue a los que se detallan abajo, se deberá incluir en las tablas siguientes de acuerdo a la disciplina a la que pertenece, indicando la nomenclatura usada):
 
-Requerimientos:
+Requisitos:
 | Nomenclatura                                |Entregable                                                    |
 |---------------------------------------------|--------------------------------------------------------------|
-| RQACT                                       |Acta de Reunión de Requerimientos                             |
-| RQDRQ                                       |Especificación de Requerimientos                              |
+| RQACT                                       |Acta de Reunión de Requisitos                                 |
+| RQDRQ                                       |Especificación de Requisitos                                  |
 | RQMOD                                       |Modelo de Casos de Uso                                        |
-| RQRSU                                       |Requerimientos Suplementarios                                 |
+| RQRSU                                       |Requisitos Suplementarios                                     |
 | RQDVC                                       |Documento de Validación con el Cliente                        |
 | RQPIU                                       |Pautas para Interfase de Usuario                              |
-| RQRCA                                       |Requerimientos Candidatos                                     |
+| RQRCA                                       |Requisitos Candidatos                                         |
 | RQALS                                       |Alcance del Sistema                                           |
 | RQGLO                                       |Glosario                                                      |
 | RQOOMDO                                     |Modelo de Dominio                                             |
-| RQOODRP                                     |Documento de Requerimientos para el Prototipo                 |
+| RQOODRP                                     |Documento de Requisitos para el Prototipo                     |
 | RQGXNOM                                     |Nomenclatura                                                  |
 
 Diseño:
@@ -268,10 +268,12 @@ Comunicación (COM):
 
 ##### 3.1.3 Elementos de la Línea Base del Proyecto
 FASE: [Fase]
+
 ITERACIÓN: [Iteración]
+
 | Elemento                              |Descripción                                | Disciplina                      |
 |---------------------------------------|-------------------------------------------|---------------------------------|
-| [Nombre del elemento de la Línea Base]|[Descripción del elemento de la Línea Base]||[Disciplina a la que pertenece] |
+| [Nombre del elemento de la Línea Base]|[Descripción del elemento de la Línea Base]| [Disciplina a la que pertenece] |
 
 ##### 3.1.4 Recuperación de los Elementos de configuración
 CONFIGURACIÓN: Las características funcionales y físicas de una versión específica de hardware y elementos de software que combinados de acuerdo a procedimientos de construcción específicos cumplen un propósito particular.
@@ -281,7 +283,7 @@ En esta sección se detallan las actividades de solicitud, evaluación, aprobaci
 Los cambios apuntan tanto a la corrección como al mejoramiento.
 El procedimiento que se describe a continuación es el que se utilizará cada vez que se precise introducir un cambio al sistema.
 Se entiende por cambio al sistema, las modificaciones que afecten a la línea base del sistema, como pueden ser:
-- Cambios en los Requerimientos.
+- Cambios en los Requisitos.
 - Cambios en el Diseño.
 - Cambios en la Arquitectura.
 - Cambios en las herramientas de desarrollo.
@@ -327,7 +329,7 @@ Se define un comité de Control de Configuración de nivel superior, compuesto p
 ##### 3.2.4 Implementación de cambios
 Una vez realizada la evaluación del cambio, se decide en qué momento implementarlo. Esta etapa involucra los procesos necesarios para implementar la solicitud y monitorear el progreso del trabajo.
 Además se especificará el momento de liberación del cambio; así como también los responsables de las actividades que involucra el cambio.
-Recordando que nos basamos en un proceso de desarrollo incremental e iterativo, donde en cada iteración se realizan tareas de Análisis de requerimientos, Diseño, Implementación y Verificación; se debe introducir el cambio en el área que lo originó y continuar con las actividades del ciclo (Requerimientos, Análisis, Diseño, Implementación, Verificación) que impactarán los elementos de la línea base correspondientes a cada actividad.
+Recordando que nos basamos en un proceso de desarrollo incremental e iterativo, donde en cada iteración se realizan tareas de Análisis de Requisitos, Diseño, Implementación y Verificación; se debe introducir el cambio en el área que lo originó y continuar con las actividades del ciclo (Requisitos, Análisis, Diseño, Implementación, Verificación) que impactarán los elementos de la línea base correspondientes a cada actividad.
 
 #### 3.3 Estado de la configuración
 Las actividades de control de estado son para reunir información y reportar el estado de los elementos de configuración.
