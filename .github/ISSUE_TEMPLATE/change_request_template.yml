@@ -11,6 +11,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: dropdown
   attributes:
     label: Motivo del control de cambio
@@ -19,6 +20,7 @@ body:
       - Otros
   validations:
     required: true
+
 - type: textarea
   attributes:
     label: Definicion del problema o situacion actual
@@ -27,6 +29,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: textarea
   attributes:
     label: Descripción Detallada del Cambio solicitado
@@ -35,6 +38,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: textarea
   attributes:
     label: Descripción Detallada del Cambio solicitado
@@ -43,6 +47,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: textarea
   attributes:
     label: Sustento / Beneficios del Cambio
@@ -51,6 +56,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: dropdown
   attributes:
     label: Impacto del cambio
@@ -60,13 +66,15 @@ body:
       - Alcance
       - Presupuesto
       - Arquitectura
+      
 - type: textarea
   attributes:
     label: Costo asociado
     value: |
       Cambiar...
   validations:
-    required: true 
+    required: true
+
 - type: textarea
   attributes:
     label: Horas de esfuerzo
@@ -74,6 +82,7 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: textarea
   attributes:
     label: Fechas impactadas
@@ -81,6 +90,7 @@ body:
       Cambiar...
   validations:
     required: true
+
 - type: textarea
   attributes:
     label: Impacto en otros requerimientos, proyectos, portafolio u operaciones
@@ -88,13 +98,15 @@ body:
       Cambiar...
   validations:
     required: true 
+
 - type: textarea
   attributes:
     label: Impacto presupuestal
     value: |
       Cambiar...
   validations:
-    required: true 
+    required: true
+
 - type: dropdown
   attributes:
     label: Resolucion
@@ -103,6 +115,7 @@ body:
       - Rechazado
   validations:
     required: true
+
 - type: textarea
   attributes:
     label: Motivo del rechazo
