@@ -297,7 +297,7 @@ Se debe ingresar toda la información necesaria, detallada en el documento.
 ##### 3.2.2 Evaluación de cambios o Análisis de Impacto
 La evaluación del cambio involucra determinar qué es necesario hacer para implementar el cambio y la estimación de sus costos y plazos.
 
-Se realiza en 2 pasos:
+Se realiza en 3 pasos:
 1. Planificación de la evaluación del cambio que involucra:
     - Revisar la solicitud de cambio para entender su alcance. (Si es necesario se discute con el originador para aclarar el alcance de lo propuesto y los motivos de la solicitud.
     - Determinar las personas del proyecto que deben realizar el análisis de evaluación del cambio e involucrarse.
@@ -305,11 +305,11 @@ Se realiza en 2 pasos:
     - Si el cambio involucra al Cliente, obtener el acuerdo de éste con el Plan.
 2. Evaluar el cambio:
 Dependiendo de las características del cambio, la evaluación del cambio puede ser realizada por el Administrador o ser delegado a otras personas del proyecto.
-Se debe determinar el impacto en:
-- Los productos técnicos.
-- Los Planes de proyecto.
-- Los acuerdos con el cliente.
-- Los Riesgos del proyecto.
+    Se debe determinar el impacto en:
+    - Los productos técnicos.
+    - Los Planes de proyecto.
+    - Los acuerdos con el cliente.
+    - Los Riesgos del proyecto.
 3. Se actualiza el documento "Gestión de cambios".
 
 ##### 3.2.3 Aprobación o desaprobación de cambios
