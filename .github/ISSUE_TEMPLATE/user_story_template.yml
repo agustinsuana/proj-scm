@@ -5,7 +5,7 @@ labels: ["user-history"]
 body:
 - type: textarea
   attributes:
-    label: Redacte la historia
+    label: Historia de usuario
     description: Use la sintaxis Como [rol] quiero/puedo/necesito [funcion o accion] para [resultado o beneficio esperado].
     value: |
       Como [rol] quiero/puedo/necesito [funcion o accion] para [resultado o beneficio esperado].
@@ -13,7 +13,7 @@ body:
     required: true 
 - type: textarea
   attributes:
-    label: Redacte las pre condiciones
+    label: Pre condiciones
     description: Describe las pre condiciones de ser necesario
     value: |
       Ej. el usuario esta autenticado.
@@ -21,7 +21,7 @@ body:
     required: true 
 - type: textarea
   attributes:
-    label: Redacte los criterios de aceptacion
+    label: Criterios de aceptacion
     description: Describe los escenarios
     value: |
       Escenario #
@@ -40,3 +40,13 @@ body:
       Then
   validations:
     required: true 
+- type: dropdown
+  attributes:
+    label: Prioridad
+    description: Prioridad de la tarea
+    options: 
+      - Alto
+      - Medio
+      - Bajo
+  validations:
+      required: true
