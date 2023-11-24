@@ -1,0 +1,11 @@
+name: 💡 Historia de Usuario
+description: Plantilla para redactar historia de usuario
+title: "[Historia de usuario] <titulo>"
+labels: ["user-history"]
+body:
+- type: textarea
+  attributes:
+    label: Redacte la historia
+    description: Use la sintaxis Como [rol] quiero/puedo/necesito [funcion o accion] para [resultado o beneficio esperado].
+  validations:
+    required: true
