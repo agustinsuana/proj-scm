@@ -7,5 +7,10 @@ body:
   attributes:
     label: Redacte la historia
     description: Use la sintaxis Como [rol] quiero/puedo/necesito [funcion o accion] para [resultado o beneficio esperado].
+    value:
+      - **Como** [rol]
+      - **Quiero/Puedo/Necesito** [función o acción]
+      - **Para que** [resultado o beneficio esperado]
+    render: markdown
   validations:
-    required: true
+    required: true 
