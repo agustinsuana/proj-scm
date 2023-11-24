@@ -1,0 +1,62 @@
+---
+name: Acta de Reunión de Requisitos
+about: Plantilla para Acta de Reunión de Requisitos
+title: "Acta de Reunión de Requisitos: [Nombre del Proyecto]"
+labels: 'RQMOD'
+assignees: ''
+---
+# Modelo de Casos de Uso
+
+## Nombre del Proyecto
+*Nombre del Proyecto: [Nombre del Proyecto]*
+
+### Introducción
+Breve descripción del proyecto y el propósito de este modelo de casos de uso.
+
+### Actores
+Listar los actores involucrados en el sistema y una breve descripción de cada uno.
+
+- Actor 1: [Descripción]
+- Actor 2: [Descripción]
+- Actor 3: [Descripción]
+
+### Casos de Uso
+Enumerar y describir los casos de uso del sistema.
+
+#### Caso de Uso 1: [Nombre del Caso de Uso]
+- **ID**: 
+- **Descripción**: 
+- **Actor Principal**: 
+- **Precondiciones**: 
+- **Flujo Principal**: 
+  1. Paso 1
+  2. Paso 2
+- **Postcondiciones**: 
+- **Flujos Alternativos**: 
+- **Flujos de Excepción**: 
+
+#### Caso de Uso 2: [Nombre del Caso de Uso]
+- **ID**: 
+- **Descripción**: 
+- **Actor Principal**: 
+- **Precondiciones**: 
+- **Flujo Principal**: 
+- **Postcondiciones**: 
+- **Flujos Alternativos**: 
+- **Flujos de Excepción**: 
+
+### Diagramas de Casos de Uso
+Incluir o referenciar los diagramas de casos de uso relacionados, si están disponibles.
+
+### Relaciones entre Casos de Uso
+Describir las relaciones entre los distintos casos de uso, como incluir, extender y generalizaciones.
+
+### Requisitos Funcionales Relacionados
+Listar los requisitos funcionales del sistema relacionados con cada caso de uso.
+
+- Requisito Funcional 1: [Descripción]
+- Requisito Funcional 2: [Descripción]
+
+### Comentarios Adicionales
+Espacio para cualquier otra información o comentario relevante sobre los casos de uso.
+

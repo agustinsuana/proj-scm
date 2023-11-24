@@ -2,7 +2,7 @@
 name: Acta de Reunión de Requisitos
 about: Plantilla para Acta de Reunión de Requisitos
 title: "Acta de Reunión de Requisitos: [Nombre del Proyecto]"
-labels: ''
+labels: 'RQACT'
 assignees: ''
 ---
 # Acta de Reunión de Requisitos
