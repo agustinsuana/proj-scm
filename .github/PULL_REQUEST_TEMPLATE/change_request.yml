@@ -1,0 +1,51 @@
+name: 💡 Solicitud de cambio
+description: Plantilla para solicitar cambios
+title: "[Solicitud de cambio] <titulo>"
+labels: []
+body:
+- type: textarea
+  attributes:
+    label: Resumen
+    description: Redacte un resumen de la solicitud del cambio.
+    value: |
+      Cambiar...
+  validations:
+    required: true 
+- type: textarea
+  attributes:
+    label: Detalle de la solicitud de cambio
+    description: Describe las pre condiciones de ser necesario
+    value: |
+      Ej. el usuario esta autenticado.
+  validations:
+    required: true 
+- type: textarea
+  attributes:
+    label: Criterios de aceptacion
+    description: Describe los escenarios
+    value: |
+      Escenario #
+      Given
+      When
+      Then
+
+      Escenario #
+      Given
+      When
+      Then
+
+      Escenario #
+      Given
+      When
+      Then
+  validations:
+    required: true 
+- type: dropdown
+  attributes:
+    label: Prioridad
+    options: 
+      - Alto
+      - Medio
+      - Bajo
+  validations:
+      required: true
