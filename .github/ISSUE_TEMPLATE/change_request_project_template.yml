@@ -1,5 +1,5 @@
-name: 💡 Solicitud de cambio
-description: Plantilla para solicitar cambios
+name: 💡 Solicitud de cambio del proyecto
+description: Plantilla para solicitar cambios del proyecto
 title: "[Solicitud de cambio] <titulo>"
 labels: []
 body:
@@ -8,7 +8,7 @@ body:
     label: Area solicitante
     options:
       - Negocio
-      - TI
+      - VPOT
   validations:
     required: true
 
@@ -25,7 +25,11 @@ body:
   attributes:
     label: Motivo del control de cambio
     options:
-      - Cambio del alcance
+      - Cambio de alcance
+      - Presupuesto
+      - Variacion de fechas
+      - Cancelacion de proyecto
+      - Dependencias
       - Otros
   validations:
     required: true
