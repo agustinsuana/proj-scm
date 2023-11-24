@@ -41,8 +41,34 @@ body:
 
 - type: textarea
   attributes:
-    label: Descripción Detallada del Cambio solicitado
-    description: indicar  funcionalidad, aplicativos,  reglas de negocio, reportes
+    label: Sustento / Beneficios del Cambio
+    description: Beneficio cuantitativo y cualitativo, mayores ingresos, menores gastos, mejora de nivel de servicio, etc
+    value: |
+      Cambiar...
+  validations:
+    required: true 
+
+- type: dropdown
+  attributes:
+    label: Impacto del cambio
+    multiple: true
+    options:
+      - Tiempo
+      - Alcance
+      - Presupuesto
+      - Arquitectura
+      
+- type: textarea
+  attributes:
+    label: Costo asociado
+    value: |
+      Cambiar...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Horas de esfuerzo
     value: |
       Cambiar...
   validations:
@@ -50,8 +76,40 @@ body:
 
 - type: textarea
   attributes:
-    label: Sustento / Beneficios del Cambio
-    description: Beneficio cuantitativo y cualitativo, mayores ingresos, menores gastos, mejora de nivel de servicio, etc
+    label: Fechas impactadas
+    value: |
+      Cambiar...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Impacto en otros requerimientos, proyectos, portafolio u operaciones
+    value: |
+      Cambiar...
+  validations:
+    required: true 
+
+- type: textarea
+  attributes:
+    label: Impacto presupuestal
+    value: |
+      Cambiar...
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Resolucion
+    options:
+      - Aprobado
+      - Rechazado
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Motivo del rechazo
     value: |
       Cambiar...
   validations:
