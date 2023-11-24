@@ -5,15 +5,12 @@ labels: ["user-history"]
 projects: []
 assignees: []
 body:
-  - type: markdown
+  - type: textarea
+    id: what-happened
     attributes:
-      value: |
-        Gracias por llenar el reporte
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
-      required: false
+      required: true
