@@ -4,3 +4,8 @@ title: "[Historia de Usuario]: "
 labels: ["user-history"]
 projects: []
 assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por llenar el reporte
