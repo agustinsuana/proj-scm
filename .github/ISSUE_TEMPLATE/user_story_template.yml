@@ -1,0 +1,44 @@
+---
+name: ✨ Historia de Usuario
+about: Plantilla para crear una historia de usuario con criterios de aceptación y tareas
+title: "Historia de Usuario: [Título]"
+labels: historia-de-usuario
+assignees: ''
+
+# Descripción detallada de la historia de usuario.
+description: |
+  ## Historia de Usuario
+  **Como** [rol]
+  **Quiero/Puedo/Necesito** [función o acción]
+  **Para que** [resultado o beneficio esperado]
+
+# Criterios de aceptación para esta historia de usuario.
+acceptanceCriteria: |
+  ## Criterios de Aceptación
+  1. Criterio de aceptación 1
+  2. Criterio de aceptación 2
+  3. Criterio de aceptación 3
+
+# Tareas específicas para completar la historia de usuario.
+tasks: |
+  ## Tareas
+  - [ ] Tarea 1
+  - [ ] Tarea 2
+  - [ ] Tarea 3
+
+# Cualquier información adicional o notas relevantes.
+additionalInfo: |
+  ## Información Adicional
+  <!-- Agregar cualquier otro comentario o información adicional aquí -->
+
+# Prioridad de la historia de usuario.
+priority: |
+  ## Prioridad
+  <!-- Indicar la prioridad de esta historia de usuario (Alta, Media, Baja) -->
+
+# Estimación del tiempo necesario para completar la historia de usuario.
+timeEstimation: |
+  ## Estimación de Tiempo
+  <!-- Proporcionar una estimación del tiempo necesario para completar esta historia -->
+
+---
