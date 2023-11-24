@@ -11,41 +11,11 @@ body:
       Cambiar...
   validations:
     required: true 
-- type: textarea
-  attributes:
-    label: Detalle de la solicitud de cambio
-    description: Describe las pre condiciones de ser necesario
-    value: |
-      Ej. el usuario esta autenticado.
-  validations:
-    required: true 
-- type: textarea
-  attributes:
-    label: Criterios de aceptacion
-    description: Describe los escenarios
-    value: |
-      Escenario #
-      Given
-      When
-      Then
-
-      Escenario #
-      Given
-      When
-      Then
-
-      Escenario #
-      Given
-      When
-      Then
-  validations:
-    required: true 
 - type: dropdown
   attributes:
-    label: Prioridad
-    options: 
-      - Alto
-      - Medio
-      - Bajo
+    label: Motivo del control de cambio
+    options:
+      - Cambio del alcance
+      - Otros
   validations:
-      required: true
+    required: true
